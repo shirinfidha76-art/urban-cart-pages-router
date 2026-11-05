@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-import ProductCard from "../ProductCard";
+import ProductCard from "../../components/ProductCard";
 import { ProductService } from "../../srvices/services";
 
 export default function Products() {

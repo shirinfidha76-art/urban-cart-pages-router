@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ShoppingCart } from "lucide-react";
-import { useCart } from "./CartContext";
+import { useCart } from "../context/CartContext";
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);

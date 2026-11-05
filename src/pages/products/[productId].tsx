@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 import { ProductService } from "../../srvices/services";
-import AddToCartButton from "../AddToCartButton";
+import AddToCartButton from "../../components/AddToCartButton";
 
 export default function ProductDetails() {
     const router = useRouter();

@@ -9,7 +9,7 @@ import {
   Smartphone,
 } from "lucide-react";
 
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 import { ProductService } from "../srvices/services";
 
 const categories = [

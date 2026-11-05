@@ -1,9 +1,10 @@
+
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import { CartProvider } from "./CartContext";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import { CartProvider } from "../context/CartContext";
 
 import "../styles/globals.css";
 
@@ -19,9 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <Navigation />
-
       <Component {...pageProps} />
-
       <Footer />
     </CartProvider>
   );

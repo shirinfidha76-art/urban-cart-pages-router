@@ -3,7 +3,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { useCart } from "./CartContext";
+import { useCart } from "../context/CartContext";
 
 export default function ProductCard(props: any) {
   const prod = props.product;
